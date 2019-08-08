@@ -14,6 +14,7 @@ import { StudentsModule } from './students/students.module';
 import { TeachersModule } from './teachers/teachers.module';
 import { AsideMenuModule } from './components/shell/aside-menu/aside-menu.module';
 import { HeaderModule } from './components/shell/header/header.module';
+import { RouterModule } from '@angular/router';
 //
 
 
@@ -21,6 +22,7 @@ import { HeaderModule } from './components/shell/header/header.module';
   declarations: [GeneralDashboardComponent],
   imports: [
     CommonModule,
+    RouterModule,
     // Modules
     AttendanceListModule,
     ChatModule,

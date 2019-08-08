@@ -1,1 +1,6 @@
-<p>aside-menu works!</p>
+<div class="menu-body flex flex-column flex-justify-center flex-align-start flex-full-height" id="menu-body">
+    <div class="flex flex-justify-center .flex-align-center flex-full-width" id="logo"></div>
+    <div class="flex flex-full-width flex-column flex-justify-start flex-align-start" id="menu-items">
+        <issho-menu-item *ngFor="let item of menuItems()" [item]="item"></issho-menu-item>
+    </div>
+</div>

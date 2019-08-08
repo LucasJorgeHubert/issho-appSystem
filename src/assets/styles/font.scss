@@ -1,3 +1,5 @@
+@import "./colors.scss";
+
 .font {
   &-size {
     &-12 {
@@ -30,5 +32,19 @@
   }
   &-bold {
     font-weight: 700;
+  }
+  &-color {
+    &-white {
+      color: $white;
+    }
+    &-primary {
+      color: $scorpion;
+    }
+    &-gray {
+      color: $java;
+    }
+    &-orange {
+      color: $my-sin;
+    }
   }
 }

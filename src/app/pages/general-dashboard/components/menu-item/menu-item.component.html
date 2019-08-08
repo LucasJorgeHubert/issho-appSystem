@@ -1,0 +1,9 @@
+<div class="flex flex-row flex-align-center flex-justify-between flex-full-width">
+    <div class="flex flex-align-center flex-justify-center" id="icon">
+        <img [src]="item.imgUrl" alt="Ícone do menu">
+    </div>
+    <div class="flex flex-align-center flex-justify-center" id="icon">
+        <span class="font-size-14 font-color-white font-regular" [ngClass]="{'font-semi-bold': item.active}">{{item.item}}</span>
+    </div>
+    
+</div>

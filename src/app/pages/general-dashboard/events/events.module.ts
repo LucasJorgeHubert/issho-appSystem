@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { EventsRoutingModule } from './events-routing.module';
 import { EventsComponent } from './events.component';
+import { AddEventModule } from './add-event/add-event.module';
 
 
 @NgModule({
   declarations: [EventsComponent],
   imports: [
     CommonModule,
-    EventsRoutingModule
+    EventsRoutingModule,
+    AddEventModule
   ]
 })
 export class EventsModule { }
