@@ -40,11 +40,16 @@
     &-primary {
       color: $scorpion;
     }
-    &-gray {
+    &-green {
       color: $java;
     }
     &-orange {
       color: $my-sin;
+    }
+  }
+  &-align{
+    &-center{
+      text-align: center;
     }
   }
 }

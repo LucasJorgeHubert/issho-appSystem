@@ -1,4 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { shellService } from '../shell.service';
+
+export interface hearderInfos {
+  userName?: string;
+  userImage?: string;
+  actualPage?: string;
+};
 
 @Component({
   selector: 'app-header',
@@ -7,9 +14,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  @Input() infos: hearderInfos
+
+  constructor(private _shellService: shellService) { }
 
   ngOnInit() {
+    this.infos = this._shellService.getInfos();
   }
+
 
 }

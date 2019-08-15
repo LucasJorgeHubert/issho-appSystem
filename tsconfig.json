@@ -2,11 +2,6 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "paths": {
-      "@menu/*": [
-        "./src/assets/icons/menu/*"
-      ],
-    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,

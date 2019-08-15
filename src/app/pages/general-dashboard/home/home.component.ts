@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { shellService } from '../components/shell/shell.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _shellService: shellService) { }
+
+  public infos;
 
   ngOnInit() {
+    this.getInfos();
+  }
+
+  getInfos() {
+    this.infos = this._shellService.getInfos();
   }
 
 }

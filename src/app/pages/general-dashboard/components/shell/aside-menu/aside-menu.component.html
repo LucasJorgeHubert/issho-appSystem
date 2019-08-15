@@ -1,6 +1,12 @@
-<div class="menu-body flex flex-column flex-justify-center flex-align-start flex-full-height" id="menu-body">
-    <div class="flex flex-justify-center .flex-align-center flex-full-width" id="logo"></div>
+<div class="menu-body flex flex-column flex-justify-start flex-align-start flex-full-height" id="menu-body">
+    <div class="flex flex-justify-center .flex-align-center flex-full-width" id="logo">
+        <img src="../../../../../../assets/icons/logo_issho_full_white.svg" alt="">
+    </div>
     <div class="flex flex-full-width flex-column flex-justify-start flex-align-start" id="menu-items">
-        <issho-menu-item *ngFor="let item of menuItems()" [item]="item"></issho-menu-item>
+        <issho-menu-item *ngFor="let item of menuItemsGeneral()" [item]="item" class="flex flex-full-width"></issho-menu-item>
+        <div class="separator"></div>
+        <issho-menu-item *ngFor="let item of menuItemsRelationship()" [item]="item" class="flex flex-full-width"></issho-menu-item>
+        <div class="separator"></div>
+        <issho-menu-item *ngFor="let item of menuItemsSystem()" [item]="item" class="flex flex-full-width"></issho-menu-item>
     </div>
 </div>

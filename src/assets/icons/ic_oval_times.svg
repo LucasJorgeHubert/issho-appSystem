@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ic_oval_times" transform="translate(-241 -364)">
+    <g id="Group_84" data-name="Group 84" transform="translate(-325 -83)">
+      <g id="Rectangle_583" data-name="Rectangle 583" transform="translate(566 447)" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="30" height="30" rx="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Path_412" data-name="Path 412" d="M248.955,386.507l11.759-12.924" transform="translate(14.419 -9.662) rotate(2)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_414" data-name="Path 414" d="M248.955,386.507l11.759-12.924" transform="translate(-132.874 620.461) rotate(-88)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

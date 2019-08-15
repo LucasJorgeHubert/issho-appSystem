@@ -1,3 +1,27 @@
-#menu-body{
-    background-color: aquamarine;
+@import "../../../../../../assets/styles/colors.scss";
+@import "../../../../../../assets/styles/mixins.scss";
+
+#menu-body {
+  background-color: $java;
+  min-width: 20%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow-y: auto;
+  @include mobile {
+    min-width: 100%;
+  }
+}
+
+.separator {
+  height: 1px;
+  width: 100%;
+  background-color: #ffffff50;
+}
+
+#logo {
+  padding: 30px 0;
+  img{
+    height: 60px;
+  }
 }

@@ -1,1 +1,10 @@
-<p>header works!</p>
+<div class="flex flex-align-center flex-justify-between" id="header-body">
+    <div id="menu-toggle" class="flex flex-align-center flex-justify-start flex-full-height">
+        <img src="../../../../../../assets/icons/bars.svg" alt="Abre e fecha menu" id="toogle-menu">
+        <span class="font-size-16 font-semi-bold font-color-primary flex flex-align-center">{{infos.actualPage}}</span>
+    </div>
+    <div id="user-area" class="flex flex-align-center flex-justify-end flex-full-height">
+        <span class="font-size-12 font-semi-bold font-color-primary">{{infos.userName}}</span>
+        <img [src]="infos.userImage" alt="" id="userImg">
+    </div>
+</div>  

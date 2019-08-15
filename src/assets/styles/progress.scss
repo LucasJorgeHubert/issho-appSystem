@@ -1,0 +1,19 @@
+@import "./colors.scss";
+
+progress {
+  /* style rules */
+  height: 5px;
+  background-color: $my-sin;
+}
+progress::-webkit-progress-bar {
+  background-color: $my-sin;
+  /* style rules */
+}
+progress::-webkit-progress-value {
+    background-color: $java;
+    /* style rules */
+}
+progress::-moz-progress-bar {
+    background-color: $my-sin;
+  /* style rules */
+}

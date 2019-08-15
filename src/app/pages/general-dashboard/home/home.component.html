@@ -1,1 +1,45 @@
-<p>home works!</p>
+<div class="flex flex-full-width flex-full-height-force flex-column flex-align-center">
+    <div id="wellcome" class="flex flex-full-width flex-column flex-align-center">
+        <div id="wellcome-msg" class="font-size-14 font-medium font-color-primary pad-ver-10">
+            Seja bem vindo
+            <span class="font-size-14 font-medium font-color-green">{{infos.userName}}</span>
+        </div>
+        <app-issho-title [text]="'Esse é seu resumo de hoje'"></app-issho-title>
+    </div>
+    <div id="card-counts" class="flex flex-justify-between flex-full-width pad-ver-10 pad-hor-10">
+        <issho-card cardClass="flex flex-column flex-align-center flex-justify-center">
+            <div>
+                <progress min="0" max="100" value="50" class="">
+                </progress>
+            </div>
+            <div>
+                <span class="font-size-36 font-bold font-color-orange pad-ver-15">105</span>
+            </div>
+            <div>
+                <span class="font-size-14 font-semi-bold font-color-primary">Alunos compareceram</span>
+            </div>
+        </issho-card>
+        <issho-card cardClass="flex flex-column flex-align-center flex-justify-center">
+            <div>
+                <img src="../../../../assets/icons/user-friends.svg" alt="">
+            </div>
+            <div>
+                <span class="font-size-36 font-bold font-color-orange pad-ver-15">15</span>
+            </div>
+            <div>
+                <span class="font-size-14 font-semi-bold font-color-primary">Professores ativos</span>
+            </div>
+        </issho-card>
+        <issho-card cardClass="flex flex-column flex-align-center flex-justify-center">
+            <div>
+                <img src="../../../../assets/icons/comment.svg" alt="">
+            </div>
+            <div>
+                <span class="font-size-36 font-bold font-color-orange pad-ver-15">4</span>
+            </div>
+            <div>
+                <span class="font-size-14 font-semi-bold font-color-primary"> Mensagens não lidas</span>
+            </div>
+        </issho-card>
+    </div>
+</div>

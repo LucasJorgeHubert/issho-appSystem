@@ -1,0 +1,26 @@
+@import "../../../../assets/styles/colors.scss";
+@import "../../../../assets/styles/mixins.scss";
+
+:host {
+  padding: 15px;
+  background-color: $concrete;
+}
+
+#card-counts {
+  @include tablet {
+    flex-direction: column;
+  }
+
+  issho-card {
+    width: 33%;
+    @include tablet {
+      width: 100%;
+    }
+    div {
+      min-height: 50px;
+      img {
+        max-width: 40px;
+      }
+    }
+  }
+}

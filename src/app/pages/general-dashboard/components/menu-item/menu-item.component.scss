@@ -1,0 +1,15 @@
+#body-item {
+  padding: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #00000020;
+    transition: 0.2s;
+  }
+
+  #label {
+      margin-left: 10px;
+  }
+}
+

@@ -15,6 +15,7 @@ import { TeachersModule } from './teachers/teachers.module';
 import { AsideMenuModule } from './components/shell/aside-menu/aside-menu.module';
 import { HeaderModule } from './components/shell/header/header.module';
 import { RouterModule } from '@angular/router';
+import { shellService } from './components/shell/shell.service';
 //
 
 
@@ -38,6 +39,7 @@ import { RouterModule } from '@angular/router';
     AsideMenuModule,
     HeaderModule
   ],
-  exports: [GeneralDashboardComponent]
+  exports: [GeneralDashboardComponent],
+  providers: [shellService]
 })
 export class GeneralDashboardModule { }

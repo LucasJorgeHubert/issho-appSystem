@@ -1,2 +1,9 @@
-<router-outlet></router-outlet>
-<app-aside-menu></app-aside-menu>
+<div class="flex flex-full-width flex-full-height">
+    <div id="menu">
+        <app-aside-menu></app-aside-menu>
+    </div>
+    <div id="body" class="flex flex-full-height flex-column">
+        <app-header></app-header>
+        <router-outlet></router-outlet>
+    </div>
+</div>
